@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <test verbose="2" preserve-order="true" name="inception_env1">
+        <parameter name="config" value="parallel.conf.json"></parameter>
+        <parameter name="environment" value="env1"></parameter>
+        <classes>
+            <class name="TestCase.Inception"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="inception_env2">
+        <parameter name="config" value="parallel.conf.json"></parameter>
+        <parameter name="environment" value="env2"></parameter>
+        <classes>
+            <class name="TestCase.Inception"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="inception_env3">
+        <parameter name="config" value="parallel.conf.json"></parameter>
+        <parameter name="environment" value="env3"></parameter>
+        <classes>
+            <class name="TestCase.Inception"/>
+        </classes>
+    </test>
+</suite>

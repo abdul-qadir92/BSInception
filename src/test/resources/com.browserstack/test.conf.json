@@ -1,0 +1,23 @@
+{
+"server": "hub-cloud.browserstack.com",
+"user": "",
+"key": "",
+
+"capabilities": {
+"project": "Browserstack Inception",
+"build": "1.0",
+"name": "Inception",
+"browserstack.debug": true,
+"browserstack.local": false,
+"browserstack.selenium_version": "3.5.2"
+},
+
+"environments": {
+"ie": {
+  "os": "Windows",
+  "os_version": "10",
+  "browser": "IE",
+  "browser_version": "11.0"
+  }
+}
+}
